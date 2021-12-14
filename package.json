@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev" : "node -r ./tracing index.js",
+    "dev": "node -r ./tracing index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
@@ -13,6 +13,6 @@
     "@opentelemetry/api": "^1.0.3",
     "@opentelemetry/auto-instrumentations-node": "^0.27.0",
     "@opentelemetry/sdk-node": "^0.27.0",
-    "redis": "^2.8.0"
+    "redis": "^3.1.2"
   }
 }

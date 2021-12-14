@@ -1,0 +1,14 @@
+version: "3.9"
+services:
+
+  redis:
+    container_name: redis
+    image: redis
+
+  node:
+    build: .
+    container_name: node-redis
+    depends_on:
+      - redis
+    links:
+      - redis
